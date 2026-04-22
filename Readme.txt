@@ -49,4 +49,14 @@ Tools Used
 - Azure Databricks
 - PySpark
 - Delta Lake
-- Power BI
+- Power BI 
+
+* Table Relation 
+
+The Patient table acts as the master table. Each patient can have multiple encounters representing hospital visits. Each encounter can generate multiple observations such as vitals or lab results. Additionally, patients can have multiple conditions representing their medical history. This creates a hierarchical relationship where Patient is the parent and other entities are dependent on it 
+
+
+- Patient data (Master data)
+   --Encounter (Patient Visits)
+         --Observation (Vitals / Patient Lab data)
+   --Condition (Patient Diseases)
