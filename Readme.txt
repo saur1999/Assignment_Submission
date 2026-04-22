@@ -1,7 +1,7 @@
 Assignement API Data Ingestion & Analytics
 
 Overview
-This project implements an end-to-end data pipeline to ingest, transform, and analyze FHIR API healthcare data using Spark and Delta Lake.
+This project implements an end-to-end data pipeline to ingest, transform, and analyze API healthcare data using Spark and Delta Lake.
 
 Architecture
 Raw → Bronze → Silver → Gold (Medallion Architecture)
