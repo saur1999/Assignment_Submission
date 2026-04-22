@@ -3,7 +3,7 @@ Assignement API Data Ingestion & Analytics
 
 Note : For this assignment, I implemented the pipeline in a single notebook for simplicity and faster development. However, I structured the execution logically in the sequence Patient → Encounter → Observation → Condition to maintain data dependency. In a production setup, I would split this into multiple tasks and orchestrate using Databricks Workflows
 
-Screen Shots are atached in repo for job schdule on DBX and Power BI Dashboard Screen shot 
+Screen Shots are atached in repo for job schedule on DBX and Power BI Dashboard Screen shot 
 
 
 Overview
